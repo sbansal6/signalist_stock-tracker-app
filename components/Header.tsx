@@ -9,7 +9,7 @@ const Header = async ({ user }: { user: User }) => {
 
     return (
         <header className="sticky top-0 header">
-            <div className="container header-wrapper">
+            <div className="w-full px-4 md:px-6 lg:px-8 header-wrapper">
                 <Link href="/">
                     <Image src="/assets/icons/logo.svg" alt="Signalist logo" width={140} height={32} className="h-8 w-auto cursor-pointer" />
                 </Link>
